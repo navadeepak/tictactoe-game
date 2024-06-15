@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    cursor: default;
+    font-family: "Nunito", sans-serif;
+}
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:teal;
+}
+body{
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.out-box{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+#player-status,.out-box,button{
+    margin-top: 25px;
+}
+.box0,.box3,.box6{
+    border-left: 1px solid transparent;
+}
+.box0,.box1,.box2{
+    border-top: 1px solid transparent;
+}
+.box2,.box5,.box8{
+    border-right: 1px solid transparent;
+}
+.box6,.box7,.box8{
+    border-bottom: 1px solid transparent;
+}
+.title{
+    font-size: 35px;
+    color:white;
+}
+#player-status{
+    font-size: 20px;
+    color: white;
+}
+button{
+    border: none;
+    background-color:tomato;
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+.box{
+    color: white ;
+}
