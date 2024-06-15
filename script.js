@@ -85,6 +85,7 @@ function grestart(){
     player="X"
     crtplayer="X"
     statusCRT=true
+    player_status.style="color:white;"
     player_status.innerHTML=`${crtplayer} Your's Turn`
     boxs.forEach(box=>{
         box.innerHTML=""
